@@ -6,9 +6,7 @@ public class WebConfig extends AbstractAnnotationConfigDispatcherServletInitiali
 
 	@Override
 	protected Class<?>[] getRootConfigClasses() { //root-context.xml을 대신함
-		return new Class[] {
-				RootConfig.class
-				};
+		return new Class[] {RootConfig.class};
 	}
 
 	@Override
