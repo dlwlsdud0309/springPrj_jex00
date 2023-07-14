@@ -2,7 +2,8 @@ package org.zerock.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-public class WebConfig extends AbstractAnnotationConfigDispatcherServletInitializer{
+public class WebConfig extends 
+	AbstractAnnotationConfigDispatcherServletInitializer{
 
 	@Override
 	protected Class<?>[] getRootConfigClasses() { //root-context.xml을 대신함
