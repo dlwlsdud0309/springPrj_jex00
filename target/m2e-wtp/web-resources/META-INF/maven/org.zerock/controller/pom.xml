@@ -187,6 +187,7 @@
                     <mainClass>org.test.int1.Main</mainClass>
                 </configuration>
             </plugin>
+            
             <!-- p.42 추가 -->
             <plugin>
             	<groupId>org.apache.maven.plugins</groupId>
