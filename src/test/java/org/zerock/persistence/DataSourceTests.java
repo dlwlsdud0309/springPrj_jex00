@@ -18,6 +18,8 @@ import org.zerock.config.RootConfig;
 import lombok.Setter;
 import lombok.extern.log4j.Log4j;
 
+// jex00
+
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = {RootConfig.class})
 @Log4j
